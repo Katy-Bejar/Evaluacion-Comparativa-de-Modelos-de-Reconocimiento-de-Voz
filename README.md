@@ -24,3 +24,26 @@ La investigación se centra en tres criterios principales:
 - **Python 3.8 o superior**  
 - Google Colab (Recomendado para ejecutar el proyecto)  
 - Bibliotecas necesarias: TensorFlow, librosa, NumPy, Matplotlib, entre otras.
+
+---
+
+## **Instrucciones de Uso**
+1. Clona el repositorio:
+2. Abre los notebooks en Google Colab:
+Los experimentos están distribuidos en los siguientes notebooks:
+- Comparación de modelos con audio limpio: [link](https://github.com/Katy-Bejar/Evaluacion-Comparativa-de-Modelos-de-Reconocimiento-de-Voz/blob/master/Comparaci%C3%B3n_de_modelos_con_audio_limpio.ipynb)
+- Comparación de modelos con audio ruidoso: [link](https://github.com/Katy-Bejar/Evaluacion-Comparativa-de-Modelos-de-Reconocimiento-de-Voz/blob/master/Comparaci%C3%B3n_de_modelos_con_audio_ruidoso.ipynb)
+- Evaluación multilingüe de Wav2Vec2.0: [link](https://github.com/Katy-Bejar/Evaluacion-Comparativa-de-Modelos-de-Reconocimiento-de-Voz/blob/master/Evaluaci%C3%B3n_multiling%C3%BCe_de_Wav2Vec2_0.ipynb)
+3. Ejecuta las celdas:
+Sigue las instrucciones dentro de cada notebook para reproducir los experimentos y obtener los resultados.
+
+---
+## **Resultados del proyecto**
+Los principales hallazgos de este estudio incluyen:
+
+- *Conformer*: Modelo más preciso y rápido, ideal para aplicaciones en tiempo real.
+- *Wav2Vec2.0*: Excelente rendimiento en escenarios multilingües, pero con tiempos de inferencia más altos.
+- *QuartzNet y Jasper*: Adecuados para aplicaciones que priorizan la velocidad sobre la precisión.
+- *SpeechBrain*: Flexible y útil para investigación, pero menos eficiente en tiempo de inferencia.
+
+Gráficos detallados y tablas comparativas están disponibles en los notebooks.
